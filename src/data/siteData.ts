@@ -259,11 +259,26 @@ export const pricingItems: PricingItem[] = [
       { src: "/images/pricing/Metal-badge-texture-4.png", alt: "仿金属徽章例图 4" },
     ],
   },
+  {
+    id: "fine-color-fullbody",
+    order: "09",
+    title: "精细底色全身",
+    price: "待解锁",
+    priceDetail: "敬请期待",
+    description: [
+      "可选择穿不穿衣服的业务！",
+      "如果崽崽设定简单的话建议加购服饰设计的额外服务嗷",
+    ],
+    images: [
+      { src: "/images/pricing/fine-color-fullbody-1.jpg", alt: "精细底色全身例图 1" },
+      { src: "/images/pricing/fine-color-fullbody-2.png", alt: "精细底色全身例图 2" },
+    ],
+  },
 ];
 
 export const pricingColumnLayout: PricingColumnLayout = {
-  left: ["headshot", "mini-q", "tiny-nosega", "business-card"],
-  right: ["animal-fullbody", "animal-halfbody", "design-refresh", "metal-badge"],
+  left: ["headshot", "animal-fullbody", "animal-halfbody", "tiny-nosega", "business-card"],
+  right: ["mini-q", "design-refresh", "metal-badge", "fine-color-fullbody"],
 };
 
 export const pricingGuideQuestions: PricingGuideQuestion[] = [
